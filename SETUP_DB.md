@@ -14,14 +14,14 @@ The database schema and the data files were generated from MySql 8. Therefore, y
 
 ### Installing the DB
 
-### Step 1:
+#### Step 1:
 
 Clone the repository and cd to the root directory. 
 
     $ git clone https://github.com/arunadis/rdbms_fundamentals.git
     $ cd rdbms_fundamentals.git
 
-### Step 2:
+#### Step 2:
 
 Log into the MysSql console.
 
