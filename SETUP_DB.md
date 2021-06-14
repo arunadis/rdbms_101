@@ -5,7 +5,7 @@
 
 The database schema and the data files were generated from MySql 8. Therefore, you may find some incompatibilities if you try to restore the DB with older versions of MySql
 
-**Prerequisits: MySql 8 **
+**Prerequisits: MySql 8**
 
 ### Database Schema
 
@@ -14,14 +14,14 @@ The database schema and the data files were generated from MySql 8. Therefore, y
 
 ### Installing the DB
 
-####Step 1:
+### Step 1:
 
 Clone the repository and cd to the root directory. 
 
     $ git clone https://github.com/arunadis/rdbms_fundamentals.git
     $ cd rdbms_fundamentals.git
 
-####Step 2:
+### Step 2:
 
 Log into the MysSql console.
 
@@ -31,7 +31,7 @@ Create a database named `STORE`
 
 	mysq> CREATE DATABASE STORE;
 
-####Step 3: 
+#### Step 3: 
 
 Switcht the the `STORE` db.
 
@@ -45,7 +45,7 @@ Source the functions.
 
 	mysql> SOURCE ./schema/custom_functions.sql;
 
-####Step 4: 
+#### Step 4: 
 
 Unzipt the` data/store_data.sql.zip`
 
