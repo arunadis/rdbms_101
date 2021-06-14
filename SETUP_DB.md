@@ -33,7 +33,7 @@ Create a database named `STORE`
 
 #### Step 3: 
 
-Switcht the the `STORE` db.
+Switch to the `STORE` db.
 
 	mysql> USE STORE;
 
