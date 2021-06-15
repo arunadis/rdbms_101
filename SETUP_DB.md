@@ -7,11 +7,6 @@ The database schema and the data files were generated from MySql 8. Therefore, y
 
 **Prerequisits: MySql 8**
 
-### Database Schema
-
-![](https://github.com/arunadis/rdbms_fundamentals/blob/main/schema/store_schema.png)
-
-
 ### Installing the DB
 
 #### Step 1:
