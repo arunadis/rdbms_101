@@ -28,7 +28,7 @@ mysql -uroot -P3307 -h127.0.0.1 -prdbms101 STORE
 If you don't have a database client, you can connect to the container and access the database 
 
 ```
-docker exec -it rdbms101
+docker exec -it rdbms101 bash
 mysql -uroot -prdbms101 STORE
 ```
 
