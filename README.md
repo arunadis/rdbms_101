@@ -14,7 +14,7 @@ The main objective of this exercise is to give a basic understanding of some of 
 
 First, you need a database to start with. Either you can use the docker container, or use the instructions given[ here ](https://github.com/arunadis/rdbms_fundamentals/blob/main/SETUP_DB.md " here ")to set up the sample database if already have a MySql installation. We use MySql 8 here
 
-# Running in a docker Container. 
+### Running in a docker Container. 
 
 ```
 docker run --name rdbms101 -p 3307:3306 arunadis/rdbms_fundementals:latest
