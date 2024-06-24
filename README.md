@@ -17,12 +17,12 @@ First, you need a database to start with. Either you can use the docker containe
 ### Running in a docker Container. 
 
 ```
-docker run --name rdbms101 -p 3307:3306 arunadis/rdbms_fundementals:latest
+docker run --name rdbms101 -p 33060:3306 arunadis/rdbms_fundementals:latest
 ```
 Then use any database client application, or MySql command line client to access the database. 
 
 ```
-mysql -uroot -P3307 -h127.0.0.1 -prdbms101 STORE
+mysql -uroot -P33060 -h127.0.0.1 -prdbms101 STORE
 ```
 
 If you don't have a database client, you can connect to the container and access the database 
